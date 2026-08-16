@@ -2,13 +2,13 @@ const { cmd, commands } = require('../command');
 const os = require('os');
 const moment = require('moment-timezone');
 
-const botLogo = "https://i.ibb.co/LdWgBW1t/4976157a9447.jpg";
+const botLogo = "https://i.ibb.co/Mx0hhyr8/tourl-1786734234176.jpg";
 
 const logoTypes = ["neon","neon2","fire2","glitch","hacker","futuristic","thunder","devil","fire","ice","snow","lava","metal","gold","silver","glossy","blackpink","transformer","horror","blood","joker","galaxy","space","cloud","sand","stone","magma","gradient","light","paper","watercolor","candy","christmas","luxury","leaf","summer","circuit","block3d","cartoon","chrome","frozen"];
 
 const newsletterInfo = {
     newsletterJid: "143366645887163@lid",
-    newsletterName: "Ｍᴀᴋᴏ ᴛᴇᴀᴄʜ ᴏꜰᴄ 💋",
+    newsletterName: "Ｍᴀᴋᴏ ᴛᴇᴀᴄʜ ᴏꜰᴄ 🐉",
     serverMessageId: 1
 };
 
@@ -43,31 +43,32 @@ async (conn, mek, m, { from, pushname, prefix, reply }) => {
         else if (time >= 12 && time < 17) greeting = "Good Afternoon";
         else if (time >= 17 && time < 20) greeting = "Good Evening";
 
-        const menuText = `╭─── « ʙʟᴀᴄᴋ Qᴜᴇᴇɴ ᴍᴅ » ───⟡
+        const menuText = `╭─── « 𝐁ʟᴀᴄᴋ 𝐐ᴜᴇᴇɴ » ───⟡
 │
-│ ⊳ *ʜɪ ${pushname}, ${greeting}!*
+│ ⊳ *𝗛𝗶 ${pushname}, ${greeting}!*
 │
-│ ◈ ᴠᴇʀꜱɪᴏɴ : 3.0.0
-│ ◈ ᴏᴡɴᴇʀ  : ᴍᴀᴋᴏ xᴅ ヤ
-│ ◈ ʀᴀᴍ    : ${ramUsage}
-│ ◈ ᴜᴘᴛɪᴍᴇ : ${rtime}
-│ ◈ ʜᴏꜱᴛ   : ${hostname}
+│ ◈ 𝗩𝗲𝗿𝘀𝗶𝗼𝗻 : 3.0.0
+│ ◈ 𝗢𝘄𝗻𝗲𝗿  : ᴍᴀᴋᴏ xᴅ
+│ ◈ 𝗥𝗮𝗺    : ${ramUsage}
+│ ◈ 𝗨𝗽𝘁𝗶𝗺𝗲 : ${rtime}
+│ ◈ 𝗛𝗼𝘀𝘁   : ${hostname}
 │
 ╰───────────────⟡
 
-*╭━━━〔  Ｃᴏᴍᴍᴀɴᴅ Ｐᴀɴᴇʟ 🌈 〕━━━╮*
+╭─── « 𝗖𝗢𝗠𝗠𝗔𝗡𝗗 𝗣𝗔𝗡𝗘𝗟 » ───⟡
 │
-*│ ➊ 🏠 :  ᴍᴀɪɴ ᴍᴇɴᴜ )*
-*│ ➋ 👑 : ᴏᴡɴᴇʀ ᴍᴇɴᴜ )* 
-*│ ➌ 👥 :  ɢʀᴏᴜᴘ ᴍᴇɴᴜ )*
-*│ ➍ 🎨 : ʟᴏɢᴏ ᴍᴇɴᴜ )*
-*│ ➎ 📥 :  ᴅᴏᴡɴʟᴏᴀᴅs )*
-*│ ➏ 🧃: sᴇᴀʀᴄʜ ᴍᴇɴᴜ )*
-*│ ➐ 🍬 : ᴀɪ ғᴇᴀᴛᴜʀᴇs )*
-*│ ➑ 🌈 : ᴏᴛʜᴇʀ ᴛᴏᴏʟs )*
+│ [ 𝟭 ] 𝗠𝗔𝗜𝗡 𝗠𝗘𝗡𝗨
+│ [ 𝟮 ] 𝗢𝗪𝗡𝗘𝗥 𝗠𝗘𝗡𝗨
+│ [ 𝟯 ] 𝗚𝗥𝗢𝗨𝗣 𝗠𝗘𝗡𝗨
+│ [ 𝟰 ] 𝗟𝗢𝗚𝗢 𝗠𝗘𝗡𝗨
+│ [ 𝟱 ] 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗦
+│ [ 𝟲 ] 𝗦𝗘𝗔𝗥𝗖𝗛 𝗠𝗘𝗡𝗨
+│ [ 𝟳 ] 𝗔𝗜 𝗙𝗘𝗔𝗧𝗨𝗥𝗘𝗦
+│ [ 𝟴 ] 𝗢𝗧𝗛𝗘𝗥 𝗧𝗢𝗢𝗟𝗦
 │
-╰━━━━━━━━━━━━━━━━━━━━━━╯
-< ʀᴇᴘʟʏ ᴡɪᴛʜ ᴀ ɴᴜᴍʙᴇʀ 🌈" >`;
+╰───────────────⟡
+
+> _Reply with a number to navigate._`;
 
         const imgBuffer = Buffer.from(await (await fetch(botLogo)).arrayBuffer());
 
@@ -110,13 +111,13 @@ const generateSubMenu = async (conn, mek, from, category, title, pushname, reply
 
         if (cmdList === '') cmdList = `│ ⊳ No commands found.\n│\n`;
 
-        let menuContent = `╭─── « 𝐁𝐋𝐀𝐂𝐊 𝐐𝐔𝐄𝐄𝐍 𝐌𝐃 » ───⟡
+        let menuContent = `╭─── « 𝐁ʟᴀᴄᴋ 𝐐ᴜᴇᴇɴ » ───⟡
 │
 │ ⊳ *${title}*
 │
 ${cmdList}╰───────────────⟡
 
-> ©𝙱𝙻𝙰𝙲𝙺 𝚀𝚄𝙴𝙴𝙽 𝙼𝙳`;
+> © 𝐁ʟᴀᴄᴋ 𝐐ᴜᴇᴇɴ ꪑᦔ`;
 
         const imgBuffer = Buffer.from(await (await fetch(botLogo)).arrayBuffer());
         await conn.sendMessage(from, { 
@@ -135,9 +136,9 @@ ${cmdList}╰───────────────⟡
 cmd({ pattern: "logomenu", dontAddCommandList: true, filename: __filename },
 async(conn, mek, m, {from, pushname, reply}) => {
     try {
-        let logoList = `╭─── « 𝐁𝐋𝐀𝐂𝐊 𝐐𝐔𝐄𝐄𝐍 𝐌𝐃 » ───⟡
+        let logoList = `╭─── « 𝐁ʟᴀᴄᴋ 𝐐ᴜᴇᴇɴ » ───⟡
 │
-│ ⊳ *𝐋𝐎𝐆𝐎 𝐌𝐀𝐊𝐄𝐑 𝐌𝐄𝐍𝐔*
+│ ⊳ *𝗟𝗢𝗚𝗢 𝗠𝗔𝗞𝗘𝗥 𝗠𝗘𝗡𝗨*
 │
 `;
         
@@ -153,7 +154,7 @@ async(conn, mek, m, {from, pushname, reply}) => {
 > _Reply with a number to generate._
 > _To set custom name: .logo <name>_
 
-> © 𝙱𝙻𝙰𝙲𝙺 𝚀𝚄𝙴𝙴𝙽 𝙼𝙳`;
+> © 𝐁ʟᴀᴄᴋ 𝐐ᴜᴇᴇɴ ꪑᦔ`;
 
         const imgBuffer = Buffer.from(await (await fetch(botLogo)).arrayBuffer());
         const sentMsg = await conn.sendMessage(from, { 
