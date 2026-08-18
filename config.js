@@ -12,7 +12,7 @@ module.exports = {
     READ_CMD_ONLY: true,
     AUTO_BIO: true,
 
-    AUTO_REACT: false,
+    AUTO_REACT: true,
     REACT_EMOJIS: ['❤️','💕','😻','🧡','💛','💚','💙','💜','🎉','👋'],
 
     AUTO_READ_STATUS: true,
