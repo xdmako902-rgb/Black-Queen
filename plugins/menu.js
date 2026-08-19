@@ -7,8 +7,8 @@ const botLogo = "https://i.ibb.co/Mx0hhyr8/tourl-1786734234176.jpg";
 const logoTypes = ["neon","neon2","fire2","glitch","hacker","futuristic","thunder","devil","fire","ice","snow","lava","metal","gold","silver","glossy","blackpink","transformer","horror","blood","joker","galaxy","space","cloud","sand","stone","magma","gradient","light","paper","watercolor","candy","christmas","luxury","leaf","summer","circuit","block3d","cartoon","chrome","frozen"];
 
 const newsletterInfo = {
-    newsletterJid: "143366645887163@lid",
-    newsletterName: "Ｍᴀᴋᴏ ᴛᴇᴀᴄʜ ᴏꜰᴄ 🐉",
+    newsletterJid: "120363428073031350@newsletter",
+    newsletterName: "Ｒɪᴋᴀ ᴛᴇᴀᴄʜ ᴏꜰᴄ 🐉",
     serverMessageId: 1
 };
 
